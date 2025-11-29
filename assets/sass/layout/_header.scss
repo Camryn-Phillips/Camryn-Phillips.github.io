@@ -46,7 +46,11 @@
 				display: none;
 			}
 		}
-
+		
+		.mask2 {
+  			mask: radial-gradient(circle, black 50%, rgba(0, 0, 0, 0.5) 50%);
+		}
+		
 		.logo {
 			width: 7.5rem;
 			height: 5.5rem;
@@ -260,3 +264,4 @@
 		}
 
 	}
+
