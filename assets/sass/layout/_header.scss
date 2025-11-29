@@ -51,6 +51,9 @@
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
+			border-width: _size(border-width);
+			border-style: solid;
+			border-color: _palette(border);
 			.icon {
 				&:before {
 					font-size: 2rem;
@@ -257,6 +260,7 @@
 		}
 
 	}
+
 
 
 
