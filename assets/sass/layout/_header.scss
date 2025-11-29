@@ -47,17 +47,15 @@
 			}
 		}
 		
-		.mask2 {
-  			mask: radial-gradient(circle, red 50%, blue 50%);
-		}
-		
 		.logo {
 			width: 7.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
 			border: solid _size(border-width) _palette(border);
 			border-radius: 100%;
-
+			.mask2 {
+  				mask: radial-gradient(circle, red 50%, blue 50%);
+			}
 			.icon {
 				&:before {
 					font-size: 2rem;
@@ -264,5 +262,6 @@
 		}
 
 	}
+
 
 
